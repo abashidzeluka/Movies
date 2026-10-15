@@ -8,7 +8,7 @@ namespace Movie.Domain.Entities
     {
         public int Id { get; set; }
         public string LicenseNumber { get; set; }
-        public int StudiOId { get; set; }
+        public int StudioId { get; set; }
         public Studio Studio { get; set; }
     }
 }
